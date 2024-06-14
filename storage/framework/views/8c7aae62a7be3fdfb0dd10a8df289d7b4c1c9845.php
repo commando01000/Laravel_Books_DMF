@@ -1,3 +1,5 @@
+
+
 <?php $__env->startSection('pageHeading'); ?>
     <?php if(!empty($pageHeading)): ?>
         <?php echo e($pageHeading->courses_page_title ?? 'Courses'); ?>

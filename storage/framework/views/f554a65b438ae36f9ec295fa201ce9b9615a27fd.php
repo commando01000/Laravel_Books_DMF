@@ -1,3 +1,5 @@
+
+
 <?php $__env->startSection('pageHeading'); ?>
     <?php echo e(__('Home')); ?>
 

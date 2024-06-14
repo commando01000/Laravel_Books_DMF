@@ -9008,6 +9008,191 @@ span.cookie-consent__message * {
     display: none;
 }
 
+/* Custom_Page_Area CSS Start By Supraa 14-06-2023 */
+.custom-page-area {
+    background: #f5fbff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.custom-page-area .section-title>span {
+    width: 0;
+    height: 0;
+    border-top: 18px solid #0066ff;
+    border-right: 18px solid transparent;
+}
+
+.custom-page-area .section-title .title {
+    color: #001b61;
+    padding-top: 10px;
+    padding-bottom: 58px;
+}
+
+.custom-page-area .section-title .nav {
+    border-bottom: 2px solid #d6e7ff;
+}
+
+.custom-page-area .section-title .nav li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5783a6;
+    padding: 0 35px 15px;
+    border-radius: 0;
+    margin-bottom: -2px;
+}
+
+.custom-page-area .section-title .nav li a.active {
+    color: #001b61;
+    background-color: transparent;
+    border-bottom: 3px solid #fa938f;
+}
+
+.custom-page-area .single-books-3 .books-thumb {
+    position: relative;
+}
+
+.custom-page-area .single-books-3 .books-thumb img {
+    width: 100%;
+}
+
+.custom-page-area .single-books-3 .books-thumb .books-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: -moz-linear-gradient(90deg, rgba(0, 27, 94, 0.50196) 0%, rgba(0, 27, 94, 0) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 27, 94, 0.50196) 0%, rgba(0, 27, 94, 0) 100%);
+    background-image: -ms-linear-gradient(90deg, rgba(0, 27, 94, 0.50196) 0%, rgba(0, 27, 94, 0) 100%);
+    background-image: -o-linear-gradient(90deg, rgba(0, 27, 94, 0.50196) 0%, rgba(0, 27, 94, 0) 100%);
+}
+
+.custom-page-area .single-books-3 .books-thumb .books-overlay ul {
+    position: absolute;
+    left: 18px;
+    bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+
+.custom-page-area .single-books-3 .books-thumb .books-overlay ul li i {
+    color: #ffc600;
+}
+
+.custom-page-area .single-books-3 .books-thumb .books-overlay ul li span {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.custom-page-area .single-books-3 .books-thumb .books-overlay ul li p {
+    color: #001b61;
+    background: #24ffcd;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+.custom-page-area .single-books-3 .books-content {
+    background: #fff;
+    padding: 35px;
+}
+
+.custom-page-area .single-books-3 .books-content .title {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.custom-page-area .single-books-3 .books-content p {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.custom-page-area .single-books-3 .books-content ul {
+    border-top: 1px solid #cbeaff;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-page-area .single-books-3 .books-content ul li {
+    font-size: 14px;
+    color: #5783a6;
+}
+
+.custom-page-area .single-books-3 .books-content ul p {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.custom-page-area .single-books-3 .books-content ul li i {
+    padding-right: 5px;
+}
+
+.custom-page-area .single-books-3 .books-content ul li p {
+    font-weight: 700;
+}
+
+.custom-page-area .single-books-3 .books-content ul li p span {
+    font-weight: 400;
+    color: #f26001;
+    padding-left: 5px;
+}
+
+.custom-page-area .books-active-3 .slick-arrow {
+    position: absolute;
+    top: -165px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    background: #fff;
+    z-index: 9;
+}
+
+.custom-page-area .books-active-3 .slick-arrow::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #e4f5ff;
+}
+
+.custom-page-area .books-active-3 .slick-arrow:hover {
+    background: #f16001;
+    color: #fff;
+    border-color: #f16001;
+    box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
+}
+
+.custom-page-area .books-active-3 .slick-arrow.prev {
+    right: 125px;
+}
+
+.custom-page-area .courses-active-3 .slick-arrow.next {
+    right: 15px;
+}
+
+/* Custom_Page_Area CSS End By Supraa 14-06-2023 */
+
 @media (max-width: 767px) {
   .header-area-three .menu-btns{
     flex: 0 0 auto;
